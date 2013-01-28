@@ -1,0 +1,25 @@
+body #container {
+  width: 1400px; }
+  body #container ul li {
+    display: inline-block; }
+  body #container #preview {
+    width: 400px;
+    height: 300px;
+    border: 1px solid green;
+    background-repeat: no-repeat;
+    background-size: auto 100%; }
+
+#cat-1:hover ~ #preview {
+  background-image: url("./images/cat-1.jpg"); }
+
+#cat-2:hover ~ #preview {
+  background-image: url("./images/cat-2.jpg"); }
+
+#cat-3:hover ~ #preview {
+  background-image: url("./images/cat-3.jpg"); }
+
+#cat-4:hover ~ #preview {
+  background-image: url("./images/cat-4.jpg"); }
+
+#cat-5:hover ~ #preview {
+  background-image: url("./images/cat-5.jpg"); }
